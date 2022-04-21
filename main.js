@@ -25,3 +25,14 @@ let sheep = [true,  true,  true,  false,
 let boolToWord = bool => { 
     return bool ? "Yes" : "No"; 
 }
+
+//Clock shows h hours, m minutes and s seconds after midnight.
+//Your task is to write a function which returns the time since midnight in milliseconds.
+function past(h, m, s){
+    let p, q, r;
+    p = 3600 * h
+    q = 60 * m
+    r = s
+  
+    return ((p + q + r) * 1000)
+  }
