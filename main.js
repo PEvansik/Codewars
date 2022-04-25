@@ -40,3 +40,10 @@ function past(h, m, s){
 //array contains the value. Array can contain numbers or strings. X can be either.
 //Return true if the array contains the value, false if not.
 let check = (a, x) => a.includes(x) 
+
+
+//
+function areYouPlayingBanjo(name) {
+  // Implement me
+  return name.charAt(0).toUpperCase() === 'R' ?  `${name} plays banjo` :  `${name} does not play banjo`
+}
